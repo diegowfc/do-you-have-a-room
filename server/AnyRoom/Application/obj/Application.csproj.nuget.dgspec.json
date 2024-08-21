@@ -32,8 +32,8 @@
               "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Entities\\Entities.csproj"
+              "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Entities\\Service.csproj": {
+                "projectPath": "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Entities\\Service.csproj"
               },
               "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Infrastructure\\Infrastructure.csproj"
@@ -93,11 +93,11 @@
         "net472": {}
       }
     },
-    "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Entities\\Entities.csproj": {
+    "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Entities\\Service.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Entities\\Entities.csproj",
-        "projectName": "Entities",
-        "projectPath": "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Entities\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Entities\\Service.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {

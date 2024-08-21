@@ -11,18 +11,6 @@
           "bin/placeholder/Domain.dll": {}
         }
       },
-      "Entities/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Entities.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Entities.dll": {}
-        }
-      },
       "Infrastructure/1.0.0": {
         "type": "project",
         "dependencies": {
@@ -34,6 +22,18 @@
         "runtime": {
           "bin/placeholder/Infrastructure.dll": {}
         }
+      },
+      "Service/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Service.dll": {}
+        }
       }
     }
   },
@@ -43,22 +43,22 @@
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
     },
-    "Entities/1.0.0": {
-      "type": "project",
-      "path": "../Entities/Entities.csproj",
-      "msbuildProject": "../Entities/Entities.csproj"
-    },
     "Infrastructure/1.0.0": {
       "type": "project",
       "path": "../Infrastructure/Infrastructure.csproj",
       "msbuildProject": "../Infrastructure/Infrastructure.csproj"
+    },
+    "Service/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Service.csproj",
+      "msbuildProject": "../Entities/Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Domain >= 1.0.0",
-      "Entities >= 1.0.0",
-      "Infrastructure >= 1.0.0"
+      "Infrastructure >= 1.0.0",
+      "Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -92,8 +92,8 @@
             "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Domain\\Domain.csproj": {
               "projectPath": "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Entities\\Entities.csproj"
+            "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Entities\\Service.csproj": {
+              "projectPath": "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Entities\\Service.csproj"
             },
             "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Infrastructure\\Infrastructure.csproj": {
               "projectPath": "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Infrastructure\\Infrastructure.csproj"
