@@ -60,7 +60,7 @@ npm start
 ```
 ## Database Setup
 Setting Up PostgreSQL
-Open pgAdmin 4 and create a new database named hotel_reservation.
+Open pgAdmin 4 and create a new database named dbanyroom.
 
 Import the provided database.sql file to set up the database schema and seed data. Note that the database.sql file is included for context and educational purposes. It contains the basic structure of the database to help you get started quickly.
 
