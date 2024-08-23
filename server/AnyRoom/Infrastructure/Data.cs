@@ -6,13 +6,11 @@ namespace Infrastructure
 {
     public class Data: DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public DbSet<User> Users { get; set; }
+
+        public Data(DbContextOptions<Data> options): base(options)
         {
-            IConfigurationRoot configuration = new ConfigurationBuilder()
-                .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
-                .AddJsonFile("appsettings.json")
-                .Build();
-            optionsBuilder.UseNpgsql(configuration.GetConnectionString("DefaultConnection"));
+
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
