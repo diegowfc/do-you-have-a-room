@@ -10,7 +10,7 @@ namespace Domain.Entities
 
         [Required]
         [MaxLength(100)]
-        public string Nome { get; set; }
+        public string Name { get; set; }
 
         [Required]
         [EmailAddress]
@@ -19,21 +19,24 @@ namespace Domain.Entities
 
         [Required]
         [MaxLength(255)]
-        public string Senha { get; set; }
+        public string Password { get; set; }
 
         [DataType(DataType.Date)]
-        public DateTime? DataNascimento { get; set; }
+        public DateTime? DateOfBirth { get; set; }
 
-        public DateTime DataCriacao { get; set; } = DateTime.Now;
+        public DateTime CreationDate { get; set; } = DateTime.Now;
 
         [MaxLength(15)]
-        public string Telefone { get; set; }
+        public string Phone { get; set; }
 
         [MaxLength(255)]
-        public string Endereco { get; set; }
+        public string Address { get; set; }
+
+        [MaxLength(255)]
+        public string Document { get; set; }
 
         [MaxLength(10)]
-        public string Genero { get; set; }
+        public string Gender { get; set; }
 
         [MaxLength(10)]
         public string Status { get; set; } = "Ativo";
@@ -42,8 +45,8 @@ namespace Domain.Entities
         public string Roles { get; set; } = "Cliente";
 
         [MaxLength(255)]
-        public string TokenVerificacao { get; set; }
+        public string TokenVerification { get; set; }
 
-        public DateTime? DataExpiracaoToken { get; set; }
+        public DateTime? TokenExpirationDate { get; set; }
     }
 }
