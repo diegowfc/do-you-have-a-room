@@ -38,7 +38,7 @@ namespace Domain.Entities
         [MaxLength(10)]
         public string Gender { get; set; }
 
-        [MaxLength(10)]
+        [MaxLength(20)]
         public string Status { get; set; } = "Ativo";
 
         [MaxLength(50)]
