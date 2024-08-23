@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Wtpvw7KmMfw=",
+  "dgSpecHash": "n0v85vo7RwE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\diego.wcarvalho\\source\\repos\\do-you-have-a-room\\server\\AnyRoom\\Application\\Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\diego.wcarvalho\\Source\\Repos\\do-you-have-a-room\\server\\AnyRoom\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\diego.wcarvalho\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\diego.wcarvalho\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\diego.wcarvalho\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\diego.wcarvalho\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.33\\microsoft.netcore.app.host.win-x64.6.0.33.nupkg.sha512"
+  ],
   "logs": []
 }

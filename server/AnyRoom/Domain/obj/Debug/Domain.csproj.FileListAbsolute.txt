@@ -1,0 +1,6 @@
+C:\Users\diego.wcarvalho\Source\Repos\do-you-have-a-room\server\AnyRoom\Domain\bin\Debug\Domain.dll
+C:\Users\diego.wcarvalho\Source\Repos\do-you-have-a-room\server\AnyRoom\Domain\bin\Debug\Domain.pdb
+C:\Users\diego.wcarvalho\Source\Repos\do-you-have-a-room\server\AnyRoom\Domain\obj\Debug\Domain.csproj.AssemblyReference.cache
+C:\Users\diego.wcarvalho\Source\Repos\do-you-have-a-room\server\AnyRoom\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\diego.wcarvalho\Source\Repos\do-you-have-a-room\server\AnyRoom\Domain\obj\Debug\Domain.dll
+C:\Users\diego.wcarvalho\Source\Repos\do-you-have-a-room\server\AnyRoom\Domain\obj\Debug\Domain.pdb

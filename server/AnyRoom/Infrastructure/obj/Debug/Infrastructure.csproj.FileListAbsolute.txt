@@ -1,0 +1,9 @@
+C:\Users\diego.wcarvalho\Source\Repos\do-you-have-a-room\server\AnyRoom\Infrastructure\bin\Debug\Infrastructure.dll
+C:\Users\diego.wcarvalho\Source\Repos\do-you-have-a-room\server\AnyRoom\Infrastructure\bin\Debug\Infrastructure.pdb
+C:\Users\diego.wcarvalho\Source\Repos\do-you-have-a-room\server\AnyRoom\Infrastructure\bin\Debug\Domain.dll
+C:\Users\diego.wcarvalho\Source\Repos\do-you-have-a-room\server\AnyRoom\Infrastructure\bin\Debug\Domain.pdb
+C:\Users\diego.wcarvalho\Source\Repos\do-you-have-a-room\server\AnyRoom\Infrastructure\obj\Debug\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\diego.wcarvalho\Source\Repos\do-you-have-a-room\server\AnyRoom\Infrastructure\obj\Debug\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\diego.wcarvalho\Source\Repos\do-you-have-a-room\server\AnyRoom\Infrastructure\obj\Debug\Infrastr.15EFFBFE.Up2Date
+C:\Users\diego.wcarvalho\Source\Repos\do-you-have-a-room\server\AnyRoom\Infrastructure\obj\Debug\Infrastructure.dll
+C:\Users\diego.wcarvalho\Source\Repos\do-you-have-a-room\server\AnyRoom\Infrastructure\obj\Debug\Infrastructure.pdb
