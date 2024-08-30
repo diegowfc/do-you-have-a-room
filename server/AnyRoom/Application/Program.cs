@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 using Application.Profiles;
 using Infrastructure.Data;
+using Domain.Interfaces;
+using Service.Services.Security;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(UserProfile));
+builder.Services.AddScoped<IPasswordHasher, PasswordHasher>();
 
 builder.Services.AddDbContext<DataContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"),
