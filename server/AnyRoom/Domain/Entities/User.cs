@@ -21,8 +21,8 @@ namespace Domain.Entities
         [MaxLength(255)]
         public string Password { get; set; }
 
-        [DataType(DataType.Date)]
-        public DateTime? DateOfBirth { get; set; }
+        [DataType(DataType.DateTime)]
+        public DateTime DateOfBirth { get; set; }
 
         public DateTime CreationDate { get; set; } = DateTime.Now;
 
@@ -39,13 +39,13 @@ namespace Domain.Entities
         public string Gender { get; set; }
 
         [MaxLength(20)]
-        public string Status { get; set; } = "Ativo";
+        public string Status { get; set; } = "Active";
 
         [MaxLength(50)]
-        public string Roles { get; set; } = "Cliente";
+        public string Roles { get; set; } = "Client";
 
         [MaxLength(255)]
-        public string TokenVerification { get; set; }
+        public string? TokenVerification { get; set; }
 
         public DateTime? TokenExpirationDate { get; set; }
     }

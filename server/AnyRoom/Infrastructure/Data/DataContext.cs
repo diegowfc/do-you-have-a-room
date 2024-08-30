@@ -2,15 +2,15 @@
 using Domain.Entities;
 using Microsoft.Extensions.Configuration;
 
-namespace Infrastructure
+namespace Infrastructure.Data
 {
-    public class Data: DbContext
+    public class DataContext : DbContext
     {
         public DbSet<User> Users { get; set; }
 
-        public Data(DbContextOptions<Data> options): base(options)
+        public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
-
+            AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

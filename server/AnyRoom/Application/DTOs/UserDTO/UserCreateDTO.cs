@@ -8,7 +8,7 @@
 
         public string Password { get; set; }
 
-        public DateTime? DateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; }
 
         public string Phone { get; set; }
 
@@ -16,10 +16,6 @@
 
         public string Document { get; set; }
 
-        public string Gender { get; set; }
-
-        public string Status { get; set; } = "Ativo";
-
-        public string Roles { get; set; } = "Cliente";
+        public string Gender { get; set; }  
     }
 }
