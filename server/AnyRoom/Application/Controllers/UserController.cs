@@ -1,9 +1,8 @@
-﻿using Application.DTOs.UserDTO;
+﻿using Domain.DTOs.UserDTO;
 using AutoMapper;
-using Domain.Entities;
 using Infrastructure.Data;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Service.Services.UserServices;
 
 namespace Application.Controllers
 {
@@ -13,28 +12,20 @@ namespace Application.Controllers
     {
         private readonly DataContext _context;
         private readonly IMapper _mapper;
+        private readonly IUserService _userService;
 
-        public UserController(DataContext context, IMapper mapper)
+        public UserController(DataContext context, IMapper mapper, IUserService userService)
         {
             _context = context;
             _mapper = mapper;
+            _userService = userService;
         }
 
         [HttpPost]
         [Route("register")]
         public async Task<IActionResult> RegisterUser([FromBody] UserCreateDTO userCreateDTO)
         {
-            var user = _mapper.Map<User>(userCreateDTO);
-
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            await _context.Users.AddAsync(user);
-            await _context.SaveChangesAsync();
-
-            var userDTO = _mapper.Map<UserReadDTO>(user);
+            var userDTO = await _userService.RegisterUserAsync(userCreateDTO);
 
             return CreatedAtAction(nameof(RegisterUser), new { id = userDTO.ID }, userDTO);
         }
