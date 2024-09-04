@@ -22,7 +22,14 @@ namespace Service.Services.Security
 
         public bool Verify(string passwordHash, string inputPassword)
         {
-            throw new NotImplementedException();
+            var element = passwordHash.Split(Delimiter);
+
+            var salt = Convert.FromBase64String(element[0]);
+            var hash = Convert.FromBase64String(element[1]);
+
+            var hashInput = Rfc2898DeriveBytes.Pbkdf2(inputPassword, salt, Iterations, _hashAlgorithmName, KeySize);
+
+            return CryptographicOperations.FixedTimeEquals(hash, hashInput);
         }
     }
 }
